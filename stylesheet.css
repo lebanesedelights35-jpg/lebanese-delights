@@ -309,6 +309,7 @@ body{
     display: inline;
     gap: 2500px;
     text-decoration: none;
+    position: absolute;
 
 }
 .icon12{
