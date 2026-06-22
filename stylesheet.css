@@ -1,4 +1,7 @@
 
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -18,6 +21,8 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
 
     
 
@@ -259,13 +264,16 @@ body{
    position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 70px;
     align-items: center;
     max-width: 550000px;
-    top: 600px;
+    top: 500px;
     padding: bottom 300px;
     margin: auto;
-    top: 500px;
+    min-height: 100vh;
+    padding: 40px;
+    scroll-margin-top: 80px;
+    
 }
 .contact-card{
     
@@ -301,21 +309,27 @@ body{
   font-style: normal;
     align-items: center;
     position: absolute;
-    top: 900px;
+    top: 1000px;
     font-size: 30px;
+    scroll-margin-top: 80px;
 }
 .icons{
     font-size: 150px;
-    display: inline;
-    gap: 2500px;
+   position: absolute;
     text-decoration: none;
-    position: absolute;
-    bottom: 720px;
-
+    bottom:200px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+     margin-top: 20px;
+     position: absolute;
+     top: 1070px;
 
 }
 .icon12{
     text-decoration: none;
+     display: inline;
+
 }
 
 
